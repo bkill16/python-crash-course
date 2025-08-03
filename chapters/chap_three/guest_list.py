@@ -1,4 +1,8 @@
 guests = ['Hayden Christensen', 'Theo James', 'Paul Mescal']
+
+num_guests = len(guests)
+print(f"\nI'm inviting {num_guests} guests!!!")
+
 print(f'\nI invited {guests[0]} to dinner tonight.')
 print(f'I invited {guests[1]} to dinner tonight.')
 print(f'I invited {guests[2]} to dinner tonight.\n')
